@@ -1,13 +1,15 @@
 package com.kortex.api.model
 
-import sun.security.x509.AccessDescription
 import java.time.LocalDate
-import java.util.*
 import javax.persistence.Entity
 import javax.persistence.GeneratedValue
 import javax.persistence.GenerationType
 import javax.persistence.Id
 import javax.validation.constraints.NotBlank
+
+/**
+ * A data class automatically generates equals(), hashcode(), toString() and copy() methods.
+ */
 
 @Entity
 data class User(
